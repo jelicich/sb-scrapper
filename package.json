@@ -1,0 +1,24 @@
+{
+  "name": "sb-scrapper",
+  "version": "1.0.0",
+  "description": "Get info from a given website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelicich/sb-scrapper.git"
+  },
+  "author": "Esteban Jelicich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jelicich/sb-scrapper/issues"
+  },
+  "homepage": "https://github.com/jelicich/sb-scrapper#readme",
+  "dependencies": {
+    "extends-classes": "^1.0.5",
+    "pending-xhr-puppeteer": "^2.3.2",
+    "puppeteer": "^5.3.1"
+  }
+}
