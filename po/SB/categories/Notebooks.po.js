@@ -1,4 +1,4 @@
-const {URLS, SELECTORS} = require('../constants.js')
+const {URLS, SELECTORS} = require('../../../constants.js')
 
 class NotebooksPageObject {
     page;
@@ -6,10 +6,13 @@ class NotebooksPageObject {
     constructor() {}
 
     async goToNotebooks() {
+        logger.log('info', 'NotebooksPageObject.goToNotebooks');
+
         await this.goToUrl(URLS.notebooks);
     }
 
     async goToNotebooksAndFilter() {
+        logger.log('info', 'NotebooksPageObject.goToNotebooksAndFilter');
         await this.goToNotebooks();
         await this.page.click(SELECTORS.checkboxDellNotebooks);
         await this.waitForAllAjax();

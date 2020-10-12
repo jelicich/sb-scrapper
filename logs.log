@@ -1,0 +1,25 @@
+
+{"level":"info","message":"Start App","timestamp":"2020-10-12T20:24:57.898Z"}
+{"level":"info","message":"Opened browser","timestamp":"2020-10-12T20:24:58.347Z"}
+{"level":"info","message":"Opened tab","timestamp":"2020-10-12T20:24:58.658Z"}
+{"level":"info","message":"Went to URL https://www.solutionbox.com.ar/","timestamp":"2020-10-12T20:25:06.827Z"}
+{"level":"info","message":"Go to home","timestamp":"2020-10-12T20:25:06.827Z"}
+{"level":"info","message":"Start App","timestamp":"2020-10-12T20:43:55.768Z"}
+{"level":"info","message":"Get dolar price","timestamp":"2020-10-12T20:43:55.769Z"}
+{"level":"info","message":"API dolar price response successful","timestamp":"2020-10-12T20:43:56.790Z"}
+{"level":"info","message":"AppPageObject.openBrowser","timestamp":"2020-10-12T20:43:56.792Z"}
+{"level":"info","message":"AppPageObject.openNewTab","timestamp":"2020-10-12T20:43:57.190Z"}
+{"level":"info","message":"Opened tab","timestamp":"2020-10-12T20:43:57.543Z"}
+{"level":"info","message":"AppPageObject.goToUrl https://www.solutionbox.com.ar/","timestamp":"2020-10-12T20:43:57.543Z"}
+{"level":"info","message":"SBPageObject.goToHome","timestamp":"2020-10-12T20:44:06.159Z"}
+{"level":"info","message":"SBPageObject.login","timestamp":"2020-10-12T20:44:06.159Z"}
+{"level":"info","message":"Start App","timestamp":"2020-10-12T20:51:26.810Z"}
+{"level":"info","message":"Get dolar price","timestamp":"2020-10-12T20:51:26.811Z"}
+{"level":"info","message":"API dolar price response successful","timestamp":"2020-10-12T20:51:27.917Z"}
+{"level":"info","message":"AppPageObject.openBrowser","timestamp":"2020-10-12T20:51:27.922Z"}
+{"level":"info","message":"AppPageObject.openNewTab","timestamp":"2020-10-12T20:51:28.482Z"}
+{"level":"info","message":"Opened tab","timestamp":"2020-10-12T20:51:28.863Z"}
+{"level":"info","message":"AppPageObject.goToUrl https://www.solutionbox.com.ar/","timestamp":"2020-10-12T20:51:28.863Z"}
+{"level":"info","message":"SBPageObject.goToHome","timestamp":"2020-10-12T20:51:36.643Z"}
+{"level":"info","message":"SBPageObject.login","timestamp":"2020-10-12T20:51:36.645Z"}
+{"level":"error","message":"SBPageObject.login : Error: No node found for selector: #username","timestamp":"2020-10-12T20:51:36.750Z"}

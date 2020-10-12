@@ -1,11 +1,12 @@
-const {URLS, SELECTORS} = require('../constants.js')
+const {URLS, SELECTORS} = require('../../../constants.js')
 
-class NotebooksPageObject {
+class MonitorsPageObject {
     constructor() {}
 
     async goToMonitors() {
+        logger.log('info', 'MonitorsPageObject.goToMonitors');
         await this.goToUrl(URLS.notebooks);
     }
 }
 
-module.exports = NotebooksPageObject;
+module.exports = MonitorsPageObject;
